@@ -1,0 +1,165 @@
+\def \packagename {}
+\def \classname {}
+\contentsline {chapter}{\numberline {1}\bf Package soundGenetic.jgap.imp}{3}
+\contentsline {section}{\numberline {1.1}Interfaces}{4}
+\contentsline {subsection}{\numberline {1.1.1}{\bf {\sc Interface} IChromosomeExt}}{4}
+\contentsline {subsubsection}{\sc Declaration}{4}
+\contentsline {subsubsection}{\sc Methods}{4}
+\contentsline {section}{\numberline {1.2}Classes}{4}
+\contentsline {subsection}{\numberline {1.2.1}{\bf {\sc Class} SoundChromosome}}{4}
+\contentsline {subsubsection}{\sc Declaration}{4}
+\contentsline {subsubsection}{\sc Constructors}{4}
+\contentsline {subsubsection}{\sc Methods}{5}
+\contentsline {subsubsection}{\sc Methods inherited from class {\tt org.jgap.Chromosome}}{5}
+\contentsline {subsubsection}{\sc Methods inherited from class {\tt org.jgap.BaseChromosome}}{6}
+\contentsline {subsection}{\numberline {1.2.2}{\bf {\sc Class} SoundConfiguration}}{7}
+\contentsline {subsubsection}{\sc Declaration}{7}
+\contentsline {subsubsection}{\sc Serializable Fields}{7}
+\contentsline {subsubsection}{\sc Constructors}{7}
+\contentsline {subsubsection}{\sc Methods}{7}
+\contentsline {subsubsection}{\sc Methods inherited from class {\tt org.jgap.Configuration}}{7}
+\contentsline {subsection}{\numberline {1.2.3}{\bf {\sc Class} SoundGenotype}}{9}
+\contentsline {subsubsection}{\sc Declaration}{10}
+\contentsline {subsubsection}{\sc Serializable Fields}{10}
+\contentsline {subsubsection}{\sc Constructors}{10}
+\contentsline {subsubsection}{\sc Methods}{10}
+\contentsline {subsubsection}{\sc Methods inherited from class {\tt org.jgap.Genotype}}{10}
+\contentsline {subsection}{\numberline {1.2.4}{\bf {\sc Class} SoundPopulation}}{11}
+\contentsline {subsubsection}{\sc Declaration}{11}
+\contentsline {subsubsection}{\sc Constructors}{11}
+\contentsline {subsubsection}{\sc Methods inherited from class {\tt org.jgap.Population}}{12}
+\contentsline {chapter}{\numberline {2}\bf Package soundGenetic.jgap}{14}
+\contentsline {section}{\numberline {2.1}Classes}{15}
+\contentsline {subsection}{\numberline {2.1.1}{\bf {\sc Class} ConfigFitness}}{15}
+\contentsline {subsubsection}{\sc Declaration}{15}
+\contentsline {subsubsection}{\sc Serializable Fields}{15}
+\contentsline {subsubsection}{\sc Constructors}{15}
+\contentsline {subsubsection}{\sc Methods}{15}
+\contentsline {subsubsection}{\sc Methods inherited from class {\tt java.util.HashMap}}{17}
+\contentsline {subsubsection}{\sc Methods inherited from class {\tt java.util.AbstractMap}}{18}
+\contentsline {subsection}{\numberline {2.1.2}{\bf {\sc Class} ConfigFunction}}{19}
+\contentsline {subsubsection}{\sc Declaration}{19}
+\contentsline {subsubsection}{\sc Constructors}{19}
+\contentsline {subsubsection}{\sc Methods}{19}
+\contentsline {subsubsection}{\sc Methods inherited from class {\tt java.util.HashMap}}{21}
+\contentsline {subsubsection}{\sc Methods inherited from class {\tt java.util.AbstractMap}}{22}
+\contentsline {subsection}{\numberline {2.1.3}{\bf {\sc Class} ConfigJGap}}{22}
+\contentsline {subsubsection}{\sc Declaration}{22}
+\contentsline {subsubsection}{\sc Constructors}{22}
+\contentsline {subsubsection}{\sc Methods}{23}
+\contentsline {subsubsection}{\sc Methods inherited from class {\tt java.util.HashMap}}{23}
+\contentsline {subsubsection}{\sc Methods inherited from class {\tt java.util.AbstractMap}}{24}
+\contentsline {subsection}{\numberline {2.1.4}{\bf {\sc Class} GeneticConstants}}{25}
+\contentsline {subsubsection}{\sc Declaration}{25}
+\contentsline {subsubsection}{\sc Fields}{25}
+\contentsline {subsubsection}{\sc Constructors}{26}
+\contentsline {subsection}{\numberline {2.1.5}{\bf {\sc Class} JGapFindWeight}}{26}
+\contentsline {subsubsection}{\sc Declaration}{26}
+\contentsline {subsubsection}{\sc Constructors}{26}
+\contentsline {subsubsection}{\sc Methods}{26}
+\contentsline {subsection}{\numberline {2.1.6}{\bf {\sc Class} JGapSoundGenetic}}{26}
+\contentsline {subsubsection}{\sc Declaration}{26}
+\contentsline {subsubsection}{\sc Constructors}{27}
+\contentsline {subsubsection}{\sc Methods}{27}
+\contentsline {subsection}{\numberline {2.1.7}{\bf {\sc Class} SoundFitnessFunction}}{27}
+\contentsline {subsubsection}{\sc Declaration}{27}
+\contentsline {subsubsection}{\sc Serializable Fields}{27}
+\contentsline {subsubsection}{\sc Constructors}{28}
+\contentsline {subsubsection}{\sc Methods inherited from class {\tt org.jgap.FitnessFunction}}{28}
+\contentsline {chapter}{\numberline {3}\bf Package soundGenetic.jgap.FitnessFunction.support}{29}
+\contentsline {section}{\numberline {3.1}Classes}{30}
+\contentsline {subsection}{\numberline {3.1.1}{\bf {\sc Class} FormattedRandomGenerator}}{30}
+\contentsline {subsubsection}{\sc Declaration}{30}
+\contentsline {subsubsection}{\sc Serializable Fields}{30}
+\contentsline {subsubsection}{\sc Constructors}{30}
+\contentsline {subsubsection}{\sc Methods}{30}
+\contentsline {subsection}{\numberline {3.1.2}{\bf {\sc Class} Pitch}}{30}
+\contentsline {subsubsection}{\sc Declaration}{31}
+\contentsline {subsubsection}{\sc Constructors}{31}
+\contentsline {subsubsection}{\sc Methods}{31}
+\contentsline {subsection}{\numberline {3.1.3}{\bf {\sc Class} PitchFunction}}{32}
+\contentsline {subsubsection}{\sc Declaration}{32}
+\contentsline {subsubsection}{\sc Constructors}{32}
+\contentsline {subsubsection}{\sc Methods}{32}
+\contentsline {subsection}{\numberline {3.1.4}{\bf {\sc Class} PropertyGeometryPitches}}{33}
+\contentsline {subsubsection}{\sc Declaration}{33}
+\contentsline {subsubsection}{\sc Constructors}{33}
+\contentsline {subsubsection}{\sc Methods}{33}
+\contentsline {subsection}{\numberline {3.1.5}{\bf {\sc Class} Scheme}}{34}
+\contentsline {subsubsection}{\sc Declaration}{34}
+\contentsline {subsubsection}{\sc Constructors}{34}
+\contentsline {subsubsection}{\sc Methods}{34}
+\contentsline {subsection}{\numberline {3.1.6}{\bf {\sc Class} TonalitySchemes}}{35}
+\contentsline {subsubsection}{\sc Declaration}{35}
+\contentsline {subsubsection}{\sc Methods}{35}
+\contentsline {subsubsection}{\sc Methods inherited from class {\tt java.util.HashMap}}{35}
+\contentsline {subsubsection}{\sc Methods inherited from class {\tt java.util.AbstractMap}}{36}
+\contentsline {chapter}{\numberline {4}\bf Package soundGenetic}{37}
+\contentsline {section}{\numberline {4.1}Classes}{38}
+\contentsline {subsection}{\numberline {4.1.1}{\bf {\sc Class} FitnessValue}}{38}
+\contentsline {subsubsection}{\sc Declaration}{38}
+\contentsline {subsubsection}{\sc Constructors}{38}
+\contentsline {subsubsection}{\sc Methods}{38}
+\contentsline {subsection}{\numberline {4.1.2}{\bf {\sc Class} Main}}{40}
+\contentsline {subsubsection}{\sc Declaration}{40}
+\contentsline {subsubsection}{\sc Constructors}{40}
+\contentsline {subsubsection}{\sc Methods}{40}
+\contentsline {chapter}{\numberline {5}\bf Package tools}{41}
+\contentsline {section}{\numberline {5.1}Classes}{42}
+\contentsline {subsection}{\numberline {5.1.1}{\bf {\sc Class} ChartFitness}}{42}
+\contentsline {subsubsection}{\sc Declaration}{42}
+\contentsline {subsubsection}{\sc Constructors}{42}
+\contentsline {subsubsection}{\sc Methods}{42}
+\contentsline {subsection}{\numberline {5.1.2}{\bf {\sc Class} ChartPitchs}}{42}
+\contentsline {subsubsection}{\sc Declaration}{42}
+\contentsline {subsubsection}{\sc Constructors}{42}
+\contentsline {subsubsection}{\sc Methods}{43}
+\contentsline {subsection}{\numberline {5.1.3}{\bf {\sc Class} Configs}}{43}
+\contentsline {subsubsection}{\sc Declaration}{43}
+\contentsline {subsubsection}{\sc Constructors}{43}
+\contentsline {subsubsection}{\sc Methods}{43}
+\contentsline {subsection}{\numberline {5.1.4}{\bf {\sc Class} Debug}}{44}
+\contentsline {subsubsection}{\sc Declaration}{44}
+\contentsline {subsubsection}{\sc Constructors}{44}
+\contentsline {subsubsection}{\sc Methods}{44}
+\contentsline {subsection}{\numberline {5.1.5}{\bf {\sc Class} SynthNote}}{44}
+\contentsline {subsubsection}{\sc Declaration}{44}
+\contentsline {subsubsection}{\sc Constructors}{44}
+\contentsline {subsubsection}{\sc Methods}{45}
+\contentsline {chapter}{\numberline {6}\bf Package tools.findWeight}{46}
+\contentsline {section}{\numberline {6.1}Classes}{47}
+\contentsline {subsection}{\numberline {6.1.1}{\bf {\sc Class} FindWeightFromMidi}}{47}
+\contentsline {subsubsection}{\sc Declaration}{47}
+\contentsline {subsubsection}{\sc Constructors}{47}
+\contentsline {subsubsection}{\sc Methods}{47}
+\contentsline {subsection}{\numberline {6.1.2}{\bf {\sc Class} MinimiQuadrati}}{47}
+\contentsline {subsubsection}{\sc Declaration}{47}
+\contentsline {subsubsection}{\sc Constructors}{47}
+\contentsline {subsubsection}{\sc Methods}{48}
+\contentsline {chapter}{\numberline {7}\bf Package soundGenetic.jgap.FitnessFunction}{49}
+\contentsline {section}{\numberline {7.1}Classes}{50}
+\contentsline {subsection}{\numberline {7.1.1}{\bf {\sc Class} FuncDistribFrequency}}{50}
+\contentsline {subsubsection}{\sc Declaration}{50}
+\contentsline {subsubsection}{\sc Constructors}{50}
+\contentsline {subsubsection}{\sc Methods inherited from class {\tt soundGenetic.jgap.FitnessFunction.GenericFitness}}{50}
+\contentsline {subsection}{\numberline {7.1.2}{\bf {\sc Class} FuncDistribGeometric}}{50}
+\contentsline {subsubsection}{\sc Declaration}{50}
+\contentsline {subsubsection}{\sc Constructors}{50}
+\contentsline {subsubsection}{\sc Methods inherited from class {\tt soundGenetic.jgap.FitnessFunction.GenericFitness}}{50}
+\contentsline {subsection}{\numberline {7.1.3}{\bf {\sc Class} FuncDistribModel}}{51}
+\contentsline {subsubsection}{\sc Declaration}{51}
+\contentsline {subsubsection}{\sc Constructors}{51}
+\contentsline {subsubsection}{\sc Methods inherited from class {\tt soundGenetic.jgap.FitnessFunction.GenericFitness}}{51}
+\contentsline {subsection}{\numberline {7.1.4}{\bf {\sc Class} FuncDistribNote}}{51}
+\contentsline {subsubsection}{\sc Declaration}{51}
+\contentsline {subsubsection}{\sc Constructors}{51}
+\contentsline {subsubsection}{\sc Methods inherited from class {\tt soundGenetic.jgap.FitnessFunction.GenericFitness}}{51}
+\contentsline {subsection}{\numberline {7.1.5}{\bf {\sc Class} FuncFindWeight}}{51}
+\contentsline {subsubsection}{\sc Declaration}{52}
+\contentsline {subsubsection}{\sc Serializable Fields}{52}
+\contentsline {subsubsection}{\sc Constructors}{52}
+\contentsline {subsubsection}{\sc Methods inherited from class {\tt org.jgap.FitnessFunction}}{52}
+\contentsline {subsection}{\numberline {7.1.6}{\bf {\sc Class} GenericFitness}}{52}
+\contentsline {subsubsection}{\sc Declaration}{52}
+\contentsline {subsubsection}{\sc Constructors}{52}
+\contentsline {subsubsection}{\sc Methods}{52}

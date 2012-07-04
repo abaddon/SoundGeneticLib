@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GeneticSoundLayout.dtd>
+
+<layout>
+  <category type="jgap">
+    <object name="fitnessValueAccetable">0.9</object>
+    <object name="numOttave">1.0</object>
+    <object name="sizeChromosome">0</object>
+    <object name="numPopulation">20.0</object>
+    <object name="preservFitTestIndividual">0.0</object>
+    <object name="minPitch">60.0</object>
+    <object name="populationSizeConstant">0.0</object>
+  </category>
+  <category type="fitness">
+    <object name="tonalityExternalPitchScale">1</object>
+    <object name="peakCountWeight">1</object>
+    <object name="tonalityExternalScalePitchWeight">1</object>
+    <object name="geometricJumpRecoverWeight">1</object>
+    <object name="tonalitaNota">1</object>
+    <object name="geometricRibattutaWeight">1</object>
+    <object name="peakDistributionWeight">1</object>
+    <object name="jumpWeight">1</object>
+    <object name="fitnessGeometricWeight">1</object>
+    <object name="fitnessTonalityWeight">1</object>
+    <object name="frequencyPitchDistributionWeight">1</object>
+    <object name="jumpMax">4.0</object>
+    <object name="estimatoreJump">2</object>
+    <object name="tonalitaScala">1</object>
+    <object name="tonalityScalePitchWeight">1</object>
+    <object name="jumpDistance">3.0</object>
+    <object name="jumpDistanceWeight">1</object>
+    <object name="tonalityPitchWeight">1</object>
+    <object name="jumpDirectionWeight">1</object>
+    <object name="peakNumber">3.0</object>
+    <object name="fitnessFrequencyWeight">1</object>
+  </category>
+</layout>
+

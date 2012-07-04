@@ -1,0 +1,46 @@
+SISTEMARE:
+
+SEMIDIMINUITA
+-tutte le note in scala vanno bene per iniziare e finire						(OK)
+-esistono solo 3 tipi di semidiminuite											(FORSE...)										
+--DO : 0 1 3 4 6 7 9 10
+--DO#: 1 2 4 5 7 8 10 11
+--RE : 2 3 5 6 8 9 11 12
+
+ESATONALE
+-tutte le note in scala vanno bene per iniziare e finire						(OK)
+-esistono solo 2 tipi di esatonali:												(FORSE...)
+--DO : 0 2 4 6 8 10 --> do re mi fa# sol# la#
+--DO#: 1 3 5 7 9 11 --> do# re# fa sol la si
+
+
+CONTROLLO LUNGHEZZA(ampiezza) SALTI
+
+-malus salti ampi: 6, 10 e 11.																(OK)
+-salto 12 ammesso ma solo uno in 20 note													(OK)
+-controllare che non vi siano molti salti  >=7 (malus se ve ne sono + di 2 o 3 in 20 note)  (OK)
+-media pesata dei salti																		(OK?)
+
+
+NOTE PRESE ESTERNE																						(OK)
+
+-le incoraggio se ho: 8-6-8 oppure 7-6-7 con 6 nota esterna (la differenza deve essere al max di 2?)
+	s“ esatto. Ma non INCORAGGIARE quelle, diciamo che SCORAGGI le altre :p								(OK)
+
+	
+	
+	
+ERRORE FORMULA??? GUARDA GRAFICI						(OK)
+
+FIX TONALITA!!!!!!!!  GUARDA GRAFICI NUOVA FORMULA		(OK)
+
+CONTROLLARE PitchFunction jump e picchi (OK)
+
+sistemare titolo grafico
+
+creare midi
+
+
+
+
+

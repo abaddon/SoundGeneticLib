@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="Fitness" size="1017,712" id="soundGenetic" metadata="uml2-1.0" initialized="true" scrolledX="-10" scrolledY="-5" tag="1000" key="32303037303533312D31303030206A676170746573742F61626164646F6E">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.2" name="FuncDistribFrequency" location="-5,127" size="158,95" id="soundGenetic.jgap.FitnessFunction/FuncDistribFrequency">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="91,36">
+      <children xsi:type="editmodel:MethodEditModel" name="evaluate" id="soundGenetic.jgap.FitnessFunction/FuncDistribFrequency#evaluate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="pitchDistribution" id="soundGenetic.jgap.FitnessFunction/FuncDistribFrequency#pitchDistribution()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="soundGenetic.jgap.FitnessFunction/GenericFitness&lt;-soundGenetic.jgap.FitnessFunction/FuncDistribFrequency" source="//@children.0" target="//@children.1/@sourceConnections.0" targetEnd="//@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="79,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="60,77" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="soundGenetic.jgap.FitnessFunction/FuncDistribFrequency-Standard::Call->soundGenetic.jgap.FitnessFunction.support/PitchFunction" source="//@children.0" target="//@children.6" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" location="119,223" size="22,10" automaticRelocationAllowed="false" locationOnWireFromSource="-91.72259359993389" distanceFromWire="27.927868219779416" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="109,95" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,45"/>
+      <bendpoints secondRelativeDimension="-77,0" firstRelativeDimension="1,198"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showStaticAttributes="true" showProtectedMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.3" name="FuncDistribGeometric" location="177,127" size="155,203" id="soundGenetic.jgap.FitnessFunction/FuncDistribGeometric">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="90,144">
+      <children xsi:type="editmodel:MethodEditModel" name="evaluate" id="soundGenetic.jgap.FitnessFunction/FuncDistribGeometric#evaluate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="jumpCount" id="soundGenetic.jgap.FitnessFunction/FuncDistribGeometric#jumpCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="jumpDirection" id="soundGenetic.jgap.FitnessFunction/FuncDistribGeometric#jumpDirection()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="jumpDistance" id="soundGenetic.jgap.FitnessFunction/FuncDistribGeometric#jumpDistance()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="jumpRecover" id="soundGenetic.jgap.FitnessFunction/FuncDistribGeometric#jumpRecover()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="peakCount" id="soundGenetic.jgap.FitnessFunction/FuncDistribGeometric#peakCount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="peakDistribution" id="soundGenetic.jgap.FitnessFunction/FuncDistribGeometric#peakDistribution()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ribattute" id="soundGenetic.jgap.FitnessFunction/FuncDistribGeometric#ribattute()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.0/@sourceConnections.0" id="soundGenetic.jgap.FitnessFunction/GenericFitness&lt;-soundGenetic.jgap.FitnessFunction/FuncDistribGeometric" source="//@children.1" target="//@children.3" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="77,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,77" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="soundGenetic.jgap.FitnessFunction/FuncDistribGeometric-Standard::Call->soundGenetic.jgap.FitnessFunction.support/PitchFunction" source="//@children.1" target="//@children.6" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" location="269,330" size="22,10" automaticRelocationAllowed="false" locationOnWireFromSource="-17.0" distanceFromWire="26.999999999999996" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="77,203" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="72,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showStaticAttributes="true" showProtectedMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.4" name="FuncDistribNote" location="368,127" size="127,167" id="soundGenetic.jgap.FitnessFunction/FuncDistribNote">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="93,108">
+      <children xsi:type="editmodel:MethodEditModel" name="checkTemplate" id="soundGenetic.jgap.FitnessFunction/FuncDistribNote#checkTemplate(DD)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="evaluate" id="soundGenetic.jgap.FitnessFunction/FuncDistribNote#evaluate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="externalScalePitch" id="soundGenetic.jgap.FitnessFunction/FuncDistribNote#externalScalePitch()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTemplate" id="soundGenetic.jgap.FitnessFunction/FuncDistribNote#getTemplate(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="scalePitch" id="soundGenetic.jgap.FitnessFunction/FuncDistribNote#scalePitch()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tonalityPitch" id="soundGenetic.jgap.FitnessFunction/FuncDistribNote#tonalityPitch()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="soundGenetic.jgap.FitnessFunction/GenericFitness&lt;-soundGenetic.jgap.FitnessFunction/FuncDistribNote" source="//@children.2" target="//@children.1/@sourceConnections.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="60,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,4" attachSource="true"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="soundGenetic.jgap.FitnessFunction/FuncDistribNote-Standard::Call->soundGenetic.jgap.FitnessFunction.support/PitchFunction" source="//@children.2" target="//@children.6" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" location="435,293" size="22,10" automaticRelocationAllowed="false" locationOnWireFromSource="-59.0" distanceFromWire="26.0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="52,167" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="146,45"/>
+      <bendpoints secondRelativeDimension="92,0" firstRelativeDimension="0,126"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showStaticAttributes="true" showProtectedMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="GenericFitness" location="195,0" size="119,77" id="soundGenetic.jgap.FitnessFunction/GenericFitness">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="57,18">
+      <children xsi:type="editmodel:MethodEditModel" name="evaluate" id="soundGenetic.jgap.FitnessFunction/GenericFitness#evaluate()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showStaticAttributes="true" showProtectedMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SoundFitnessFunction" location="176,615" size="158,77" id="soundGenetic.jgap/SoundFitnessFunction">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="57,18">
+      <children xsi:type="editmodel:MethodEditModel" name="evaluate" id="soundGenetic.jgap/SoundFitnessFunction#evaluate(Lorg.jgap.IChromosome;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.jgap/FitnessFunction&lt;-soundGenetic.jgap/SoundFitnessFunction" source="//@children.4" target="//@children.5" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,38" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="125,38"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="soundGenetic.jgap/SoundFitnessFunction-Standard::Call->soundGenetic.jgap.FitnessFunction.support/PitchFunction*soundGenetic.jgap/SoundFitnessFunction-Standard::Instantiate->soundGenetic.jgap.FitnessFunction.support/PitchFunction*soundGenetic.jgap/SoundFitnessFunction-Soyatec::Import->soundGenetic.jgap.FitnessFunction.support/PitchFunction" source="//@children.4" target="//@children.6" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Call, Import»" location="270,570" size="98,10" automaticRelocationAllowed="false" locationOnWireFromSource="12.0" distanceFromWire="-64.0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="79,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="73,185"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="soundGenetic.jgap/SoundFitnessFunction-Soyatec::Import->soundGenetic.jgap.FitnessFunction/FuncDistribFrequency*soundGenetic.jgap/SoundFitnessFunction-Standard::Call->soundGenetic.jgap.FitnessFunction/FuncDistribFrequency*soundGenetic.jgap/SoundFitnessFunction-Standard::Instantiate->soundGenetic.jgap.FitnessFunction/FuncDistribFrequency" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.2/@children.2" label="//@children.4/@sourceConnections.2/@children.0" sourceEnd="//@children.4/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Call, Import»" location="61,571" size="98,10" automaticRelocationAllowed="false" locationOnWireFromSource="-5.172120628231323" distanceFromWire="-8.902200189111905" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="18,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,95"/>
+      <bendpoints secondRelativeDimension="180,363" firstRelativeDimension="1,-30"/>
+      <bendpoints secondRelativeDimension="0,363" firstRelativeDimension="-179,-30"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="soundGenetic.jgap/SoundFitnessFunction-Soyatec::Import->soundGenetic.jgap.FitnessFunction/FuncDistribGeometric*soundGenetic.jgap/SoundFitnessFunction-Standard::Instantiate->soundGenetic.jgap.FitnessFunction/FuncDistribGeometric*soundGenetic.jgap/SoundFitnessFunction-Standard::Call->soundGenetic.jgap.FitnessFunction/FuncDistribGeometric" source="//@children.4" target="//@children.1" targetEnd="//@children.4/@sourceConnections.3/@children.2" label="//@children.4/@sourceConnections.3/@children.0" sourceEnd="//@children.4/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Call, Import»" location="332,630" size="98,10" automaticRelocationAllowed="false" locationOnWireFromSource="-163.0" distanceFromWire="-6.99999999999974" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="158,15" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="155,188"/>
+      <bendpoints secondRelativeDimension="43,315" firstRelativeDimension="41,0"/>
+      <bendpoints secondRelativeDimension="43,0" firstRelativeDimension="41,-315"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="soundGenetic.jgap/SoundFitnessFunction-Standard::Call->soundGenetic.jgap.FitnessFunction/FuncDistribNote*soundGenetic.jgap/SoundFitnessFunction-Soyatec::Import->soundGenetic.jgap.FitnessFunction/FuncDistribNote*soundGenetic.jgap/SoundFitnessFunction-Standard::Instantiate->soundGenetic.jgap.FitnessFunction/FuncDistribNote" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.4/@children.2" label="//@children.4/@sourceConnections.4/@children.0" sourceEnd="//@children.4/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Call, Import»" location="333,659" size="98,10" automaticRelocationAllowed="false" locationOnWireFromSource="-17.0" distanceFromWire="-4.999999999999995" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="158,45" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="97,167"/>
+      <bendpoints secondRelativeDimension="0,366" firstRelativeDimension="131,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showStaticAttributes="true" showProtectedMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0" name="FitnessFunction" location="0,615" size="125,77" id="org.jgap/FitnessFunction">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="57,18">
+      <children xsi:type="editmodel:MethodEditModel" name="evaluate" id="org.jgap/FitnessFunction#evaluate(Lorg.jgap.IChromosome;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showStaticAttributes="true" showProtectedMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.1 //@children.2/@sourceConnections.1 //@children.1/@sourceConnections.1 //@children.0/@sourceConnections.1" name="PitchFunction" location="182,375" size="146,185" id="soundGenetic.jgap.FitnessFunction.support/PitchFunction">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,126">
+      <children xsi:type="editmodel:MethodEditModel" name="chromosomeToArrayList" id="soundGenetic.jgap.FitnessFunction.support/PitchFunction#chromosomeToArrayList(Lorg.jgap.IChromosome;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="pitchInt" id="soundGenetic.jgap.FitnessFunction.support/PitchFunction#pitchInt(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="pitchesOrderByFrequency" id="soundGenetic.jgap.FitnessFunction.support/PitchFunction#pitchesOrderByFrequency()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="pitchesOrderByPitches" id="soundGenetic.jgap.FitnessFunction.support/PitchFunction#pitchesOrderByPitches(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="pitchesReset" id="soundGenetic.jgap.FitnessFunction.support/PitchFunction#pitchesReset()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPitchGeometryProperty" id="soundGenetic.jgap.FitnessFunction.support/PitchFunction#setPitchGeometryProperty(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPitchTonalityProperty" id="soundGenetic.jgap.FitnessFunction.support/PitchFunction#setPitchTonalityProperty(Ljava.util.ArrayList;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="soundGenetic.jgap.FitnessFunction.support/PitchFunction-Soyatec::Import->org.jgap/IChromosome" source="//@children.6" target="//@children.7" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="33,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,165" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="60,49"/>
+      <bendpoints secondRelativeDimension="0,41" firstRelativeDimension="-77,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showStaticAttributes="true" showProtectedMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.6/@sourceConnections.0" name="IChromosome" location="45,450" size="114,49" id="org.jgap/IChromosome" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showStaticAttributes="true" showProtectedMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting rulersVisibility="false" snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showStaticAttributes="true" showProtectedMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

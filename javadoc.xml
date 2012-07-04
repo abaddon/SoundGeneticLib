@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="javadoc">
+<target name="javadoc">
+<javadoc access="public" classpath="/Users/abaddon/Documents/progetti/libs/java/jdom.jar:/Applications/eclipse/plugins/com.soyatec.model_2.4.1.20071119/uml.annotations.jar:/Users/abaddon/Documents/progetti/framework/jppf/jppf-1.0-beta2/JPPF/build/jppf-server.jar:/Users/abaddon/Documents/progetti/framework/jppf/jppf-1.0-beta2/JPPF/lib/ApacheCommons/commons-logging-1.1.jar:/Users/abaddon/Documents/progetti/libs/java/drej.jar:/Users/abaddon/Documents/progetti/framework/jfreechart/jfreechart-1.0.6.jar:/Users/abaddon/Documents/progetti/framework/jgap_3.2.1_full Folder/jgap.jar:/Users/abaddon/Documents/progetti/framework/jppf/jppf-1.0-beta2/JPPF/build/jppf-common-node.jar:/Users/abaddon/Documents/progetti/framework/jppf/jppf-1.0-beta2/JPPF/lib/log4j/log4j-1.2.9.jar:/Users/abaddon/Documents/progetti/framework/jppf/jppf-1.0-beta2/JPPF/build/jppf-common.jar:/Users/abaddon/Documents/progetti/framework/jfreechart/jcommon-1.0.10.jar:/Users/abaddon/Documents/progetti/libs/java/Jama-1.0.2.jar:/Users/abaddon/Documents/progetti/framework/jppf/jppf-1.0-beta2/JPPF/lib/ApacheCommons/commons-io-1.2.jar:/Users/abaddon/Documents/progetti/framework/jppf/jppf-1.0-beta2/JPPF/build/jppf-client.jar" packagenames="soundGenetic.jgap.FitnessFunction,soundGenetic.jgap.FitnessFunction.support,tools.findWeight,tools,soundGenetic.jgap.imp,soundGenetic,soundGenetic.jgap" sourcepath=".">
+<doclet name="org.wonderly.doclets.TexDoclet" path="/Users/abaddon/Downloads/texdoclet.jar"/>
+</javadoc>
+</target>
+</project>

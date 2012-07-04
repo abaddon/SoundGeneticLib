@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="findWeight" size="1022,640" id="UML" metadata="uml2-1.0" initialized="true" scrolledY="-5" tag="1000" key="32303037303533312D31303030206A676170746573742F61626164646F6E">
+  <children xsi:type="editmodel:ClassEditModel" name="FindWeightFromMidi" location="282,135" size="118,128" id="tools.findWeight/FindWeightFromMidi" runTimeClassModel="createNewFileConfig(Ljava.util.HashMap;Ljava.io.File;),FindWeightFromMidi(Ljava.util.ArrayList;),extractMidiFile(Ljava.io.File;),FindWeightFromMidi(),extractMidiFiles(Ljava.util.ArrayList;),getAllListScoreKey()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="81,72">
+      <children xsi:type="editmodel:MethodEditModel" name="FindWeightFromMidi" location="10,49" id="tools.findWeight/FindWeightFromMidi#FindWeightFromMidi()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="FindWeightFromMidi" id="tools.findWeight/FindWeightFromMidi#FindWeightFromMidi(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createNewFileConfig" id="tools.findWeight/FindWeightFromMidi#createNewFileConfig(Ljava.util.HashMap;Ljava.io.File;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="extractMidiFile" id="tools.findWeight/FindWeightFromMidi#extractMidiFile(Ljava.io.File;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="extractMidiFiles" id="tools.findWeight/FindWeightFromMidi#extractMidiFiles(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAllListScoreKey" id="tools.findWeight/FindWeightFromMidi#getAllListScoreKey()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="tools.findWeight/FindWeightFromMidi-Soyatec::Import->soundGenetic.jgap.FitnessFunction/FuncDistribFrequency*tools.findWeight/FindWeightFromMidi-Standard::Instantiate->soundGenetic.jgap.FitnessFunction/FuncDistribFrequency*tools.findWeight/FindWeightFromMidi-Standard::Call->soundGenetic.jgap.FitnessFunction/FuncDistribFrequency" source="//@children.0" target="//@children.3" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import, Call»" location="192,150" size="83,10" automaticRelocationAllowed="false" locationOnWireFromSource="-7.999999999999999" distanceFromWire="-13.999999999999998" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,34" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="141,34"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="tools.findWeight/FindWeightFromMidi-Standard::Instantiate->soundGenetic.jgap.FitnessFunction/FuncDistribNote*tools.findWeight/FindWeightFromMidi-Standard::Call->soundGenetic.jgap.FitnessFunction/FuncDistribNote*tools.findWeight/FindWeightFromMidi-Soyatec::Import->soundGenetic.jgap.FitnessFunction/FuncDistribNote" source="//@children.0" target="//@children.5" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import, Call»" size="83,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="58,128" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="tools.findWeight/FindWeightFromMidi-Soyatec::Import->soundGenetic.jgap.FitnessFunction.support/PitchFunction*tools.findWeight/FindWeightFromMidi-Standard::Instantiate->soundGenetic.jgap.FitnessFunction.support/PitchFunction" source="//@children.0" target="//@children.6" targetEnd="//@children.0/@sourceConnections.2/@children.2" label="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import»" location="210,240" size="66,10" automaticRelocationAllowed="false" locationOnWireFromSource="-4.0" distanceFromWire="-5.999999999999999" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,116" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="153,11"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="tools.findWeight/FindWeightFromMidi-Standard::Instantiate->soundGenetic.jgap.FitnessFunction/FuncDistribGeometric*tools.findWeight/FindWeightFromMidi-Soyatec::Import->soundGenetic.jgap.FitnessFunction/FuncDistribGeometric*tools.findWeight/FindWeightFromMidi-Standard::Call->soundGenetic.jgap.FitnessFunction/FuncDistribGeometric" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.3/@children.2" label="//@children.0/@sourceConnections.3/@children.0" sourceEnd="//@children.0/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import, Call»" location="195,284" size="83,10" automaticRelocationAllowed="false" locationOnWireFromSource="-5.121570391137416" distanceFromWire="-9.938285401849987" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="33,128" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="120,0"/>
+      <bendpoints secondRelativeDimension="165,-15" firstRelativeDimension="0,37"/>
+      <bendpoints secondRelativeDimension="0,-14" firstRelativeDimension="-165,38"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="tools.findWeight/FindWeightFromMidi-Standard::Call->soundGenetic.jgap/ConfigJGap*tools.findWeight/FindWeightFromMidi-Soyatec::Import->soundGenetic.jgap/ConfigJGap*tools.findWeight/FindWeightFromMidi-Standard::Instantiate->soundGenetic.jgap/ConfigJGap" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.4/@children.2" label="//@children.0/@sourceConnections.4/@children.0" sourceEnd="//@children.0/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import, Call»" location="329,46" size="83,10" automaticRelocationAllowed="false" locationOnWireFromSource="37.35667955383071" distanceFromWire="48.502355537771635" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="118,30" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="85,15"/>
+      <bendpoints secondRelativeDimension="20,150" firstRelativeDimension="20,0"/>
+      <bendpoints secondRelativeDimension="20,0" firstRelativeDimension="20,-150"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="tools.findWeight/FindWeightFromMidi-Standard::Call->soundGenetic.jgap/ConfigFitness*tools.findWeight/FindWeightFromMidi-Soyatec::Import->soundGenetic.jgap/ConfigFitness*tools.findWeight/FindWeightFromMidi-Standard::Instantiate->soundGenetic.jgap/ConfigFitness" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.5/@children.2" label="//@children.0/@sourceConnections.5/@children.0" sourceEnd="//@children.0/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import, Call»" location="330,116" size="83,10" automaticRelocationAllowed="false" locationOnWireFromSource="-2.0" distanceFromWire="-41.0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="48,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="17,36"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="tools.findWeight/FindWeightFromMidi-Soyatec::Import->java.util/ArrayList*tools.findWeight/FindWeightFromMidi-Standard::Instantiate->java.util/ArrayList*tools.findWeight/FindWeightFromMidi-Standard::Call->java.util/ArrayList" source="//@children.0" target="//@children.9" targetEnd="//@children.0/@sourceConnections.6/@children.2" label="//@children.0/@sourceConnections.6/@children.0" sourceEnd="//@children.0/@sourceConnections.6/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import, Call»" location="196,66" size="83,10" automaticRelocationAllowed="false" locationOnWireFromSource="29.000000000000004" distanceFromWire="48.0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="3,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="75,68"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showProtectedAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.5" name="ConfigFitness" location="313,67" size="89,36" id="soundGenetic.jgap/ConfigFitness" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showProtectedAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.4" name="ConfigJGap" location="315,0" size="85,36" id="soundGenetic.jgap/ConfigJGap" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showProtectedAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="FuncDistribFrequency" location="30,135" size="141,68" id="soundGenetic.jgap.FitnessFunction/FuncDistribFrequency" runTimeClassModel="evaluate()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="40,12">
+      <children xsi:type="editmodel:MethodEditModel" name="evaluate" id="soundGenetic.jgap.FitnessFunction/FuncDistribFrequency#evaluate()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="soundGenetic.jgap.FitnessFunction/FuncDistribFrequency-Standard::Call->soundGenetic.jgap.FitnessFunction.support/PitchFunction" source="//@children.3" target="//@children.6" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="21,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="70,68" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="70,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showProtectedAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.3" name="FuncDistribGeometric" location="30,315" size="141,68" id="soundGenetic.jgap.FitnessFunction/FuncDistribGeometric" runTimeClassModel="evaluate()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="40,12">
+      <children xsi:type="editmodel:MethodEditModel" name="evaluate" id="soundGenetic.jgap.FitnessFunction/FuncDistribGeometric#evaluate()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="soundGenetic.jgap.FitnessFunction/FuncDistribGeometric-Standard::Call->soundGenetic.jgap.FitnessFunction.support/PitchFunction" source="//@children.4" target="//@children.6" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="21,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="70,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="70,36"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showProtectedAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.1" name="FuncDistribNote" location="259,315" size="141,68" id="soundGenetic.jgap.FitnessFunction/FuncDistribNote" runTimeClassModel="evaluate()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="40,12">
+      <children xsi:type="editmodel:MethodEditModel" name="evaluate" id="soundGenetic.jgap.FitnessFunction/FuncDistribNote#evaluate()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="soundGenetic.jgap.FitnessFunction/FuncDistribNote-Standard::Call->soundGenetic.jgap.FitnessFunction.support/PitchFunction" source="//@children.5" target="//@children.6" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="21,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="71,68" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,15"/>
+      <bendpoints secondRelativeDimension="300,149" firstRelativeDimension="0,21"/>
+      <bendpoints secondRelativeDimension="-15,150" firstRelativeDimension="-315,22"/>
+      <bendpoints secondRelativeDimension="-15,0" firstRelativeDimension="-315,-128"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showProtectedAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.2 //@children.3/@sourceConnections.0 //@children.4/@sourceConnections.0 //@children.5/@sourceConnections.0" name="PitchFunction" location="30,240" size="167,36" id="soundGenetic.jgap.FitnessFunction.support/PitchFunction" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showProtectedAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MinimiQuadrati" location="30,0" size="92,104" id="tools.findWeight/MinimiQuadrati" runTimeClassModel="getWeight(),MinimiQuadrati(IILjava.util.ArrayList;),printMatrix(LJama.Matrix;),printAll()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="61,48">
+      <children xsi:type="editmodel:MethodEditModel" name="MinimiQuadrati" location="10,48" id="tools.findWeight/MinimiQuadrati#MinimiQuadrati(IILjava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getWeight" id="tools.findWeight/MinimiQuadrati#getWeight()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="printAll" id="tools.findWeight/MinimiQuadrati#printAll()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="printMatrix" id="tools.findWeight/MinimiQuadrati#printMatrix(LJama.Matrix;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="tools.findWeight/MinimiQuadrati-Standard::Instantiate->Jama/Matrix*tools.findWeight/MinimiQuadrati-Standard::Call->Jama/Matrix*tools.findWeight/MinimiQuadrati-Soyatec::Import->Jama/Matrix" source="//@children.7" target="//@children.8" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import, Call»" location="121,79" size="83,10" automaticRelocationAllowed="false" locationOnWireFromSource="-4.0" distanceFromWire="12.000000000000002" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="92,97" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,7"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="tools.findWeight/MinimiQuadrati-Soyatec::Import->java.util/ArrayList*tools.findWeight/MinimiQuadrati-Standard::Call->java.util/ArrayList*tools.findWeight/MinimiQuadrati-Standard::Instantiate->java.util/ArrayList" source="//@children.7" target="//@children.9" targetEnd="//@children.7/@sourceConnections.1/@children.2" label="//@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.7/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import, Call»" location="121,15" size="83,10" automaticRelocationAllowed="false" locationOnWireFromSource="-4.0" distanceFromWire="14.0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="92,34" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,34"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showProtectedAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.0" name="Matrix" location="210,90" size="52,36" id="Jama/Matrix" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showProtectedAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.1 //@children.0/@sourceConnections.6" name="ArrayList" location="210,0" size="89,68" id="java.util/ArrayList" runTimeClassModel="removeRange(II)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="57,12">
+      <children xsi:type="editmodel:MethodEditModel" name="removeRange" location="8,48" id="java.util/ArrayList#removeRange(II)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showProtectedAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showProtectedAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

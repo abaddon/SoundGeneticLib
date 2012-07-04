@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="MacRoman"?>
+<jardesc>
+<jar path="/Users/abaddon/Documents/progetti/java/jgaptest/SoundGenetic.jar"/>
+<options buildIfNeeded="true" compress="true" descriptionLocation="/jgaptest/descrizioneJar.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="true" overwrite="true" saveDescription="true" storeRefactorings="true" useSourceFolders="false"/>
+<storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+<selectedProjects/>
+<manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+<sealing sealJar="true">
+<packagesToSeal/>
+<packagesToUnSeal/>
+</sealing>
+</manifest>
+<selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+<javaElement handleIdentifier="=jgaptest/&lt;soundGenetic.jgap.subGene"/>
+<javaElement handleIdentifier="=jgaptest/&lt;soundGenetic.jgap.FitnessFunction.support"/>
+<javaElement handleIdentifier="=jgaptest/&lt;soundGenetic.jgap.FitnessFunction"/>
+<javaElement handleIdentifier="=jgaptest/&lt;test"/>
+<file path="/jgaptest/knapsackJGAP.xml"/>
+<javaElement handleIdentifier="=jgaptest/&lt;tools"/>
+<javaElement handleIdentifier="=jgaptest/&lt;tools.findWeight"/>
+<javaElement handleIdentifier="=jgaptest/&lt;soundGenetic.jgap.imp"/>
+<file path="/jgaptest/.classpath"/>
+<file path="/jgaptest/.project"/>
+<file path="/jgaptest/.DS_Store"/>
+<javaElement handleIdentifier="=jgaptest/&lt;soundGenetic"/>
+<javaElement handleIdentifier="=jgaptest/&lt;soundGenetic.jgap"/>
+</selectedElements>
+</jardesc>
